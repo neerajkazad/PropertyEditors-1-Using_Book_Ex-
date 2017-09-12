@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="book" class="com.pe.beans.Book">
+		<property name="isbn" value="10"></property>
+		<property name="title" value="Let us c"></property>
+		<property name="publishedDate" value="12/09/2017"></property>
+		<property name="site" value="https://www.google.com/let-us-c-book"></property>
+		<property name="toc" value="home/yin-1706-006/Desktop/2017-09-12"></property>
+		<property name="authors" value="Yashwant,Susan"></property>
+	</bean>
+   <!--  <bean id="publishedDate" class="java.util.Date" >
+    </bean>
+    <bean id="site" class="java.net.URL" >
+    	<constructor-arg value="https://www.google.com"></constructor-arg>
+    </bean>
+    <bean id="toc" class="java.io.File">
+    	<constructor-arg value="home/yin-1706-006/Desktop/2017-09-12"></constructor-arg>
+    </bean> -->
+</beans>
